@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Frutiger';
+    src: url('frutiger.woff') format('woff');
+    /* Add more 'src' lines for other font file types if needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .font-frutiger {
+    font-family: 'Frutiger', sans-serif;
+  }
+  
